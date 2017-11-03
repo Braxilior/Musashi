@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Musashi_project.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{95634132-4925-408E-9A92-1B579BB5217A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Musashi_project.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Musashi_projectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A32F2DA5-8D43-4270-B808-C37EF99A93E0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Musashi_project">
+			<UniqueIdentifier>{FA47C711-CA61-47B6-A39C-53A1A458F4DE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Musashi_project\Musashi_project.Build.cs">
+			<Filter>Source\Musashi_project</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Musashi_project\Musashi_project.cpp">
+			<Filter>Source\Musashi_project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Musashi_project\Musashi_project.h">
+			<Filter>Source\Musashi_project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Musashi_project\Musashi_projectGameModeBase.cpp">
+			<Filter>Source\Musashi_project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Musashi_project\Musashi_projectGameModeBase.h">
+			<Filter>Source\Musashi_project</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
